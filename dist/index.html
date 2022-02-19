@@ -1,27 +1,29 @@
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Firebase 9</title>
 </head>
+
 <body>
     <h1>Getting started with firebase 9</h1>
 
-        <form class="add">
-            <fieldset>
-                <legend>Add a book</legend>
-                <label for="title">Title:
-                    <input type="text" name="title" required>
-                </label>
-                <label for="author">Author:
-                    <input type="text" name="author" required>
-                </label>
-        
-                <button type="submit">Add a new book</button>
-            </fieldset>
-        </form>
-    
+    <form class="add">
+        <fieldset>
+            <legend>Add a book</legend>
+            <label for="title">Title:
+                <input type="text" name="title" required>
+            </label>
+            <label for="author">Author:
+                <input type="text" name="author" required>
+            </label>
+
+            <button type="submit">Add a new book</button>
+        </fieldset>
+    </form>
+
 
     <form class="delete">
         <fieldset>
@@ -32,7 +34,7 @@
             <button type="submit">Delete a book</button>
         </fieldset>
     </form>
-    
+
     <form class="update">
         <fieldset>
             <legend>Update a book</legend>
@@ -46,17 +48,17 @@
     <form class="signup">
         <fieldset>
             <legend>Signup</legend>
-            <br/>
+            <br />
             <label for="email">email:
                 <input type="email" name="email">
             </label>
-            <br/>
-            <br/>
+            <br />
+            <br />
             <label for="password">password:
                 <input type="password" name="password">
             </label>
-            <br/>
-            <br/>
+            <br />
+            <br />
             <button type="submit">signup</button>
         </fieldset>
     </form>
@@ -64,28 +66,36 @@
     <form class="login">
         <fieldset>
             <legend>Login</legend>
-            <br/>
+            <br />
             <label for="email">email:
                 <input type="email" name="email">
             </label>
-            <br/>
-            <br/>
+            <br />
+            <br />
             <label for="password">password:
                 <input type="password" name="password">
             </label>
-            <br/>
-            <br/>
+            <br />
+            <br />
             <button type="submit">login</button>
         </fieldset>
     </form>
 
-    
-        <fieldset>
-            <legend>Logout</legend>
-            <button type="submit" class="logout">logout</button>
-        </fieldset>
+
+    <fieldset>
+        <legend>Logout</legend>
+        <button class="logout">logout</button>
+    </fieldset>
+
+    <br/>
+
+    <fieldset>
+        <legend>Unsubscribe</legend>
+        <button class="unsub">unsubscribe from db/auth changes</button>
+    </fieldset>
 
 
     <script src="bundle.js"></script>
 </body>
+
 </html>
