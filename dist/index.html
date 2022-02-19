@@ -1,0 +1,66 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Firebase 9</title>
+</head>
+<body>
+    <h1>Getting started with firebase 9</h1>
+
+        <form class="add">
+            <fieldset>
+                <legend>Add a book</legend>
+                <label for="title">Title:
+                    <input type="text" name="title" required>
+                </label>
+                <label for="author">Author:
+                    <input type="text" name="author" required>
+                </label>
+        
+                <button type="submit">Add a new book</button>
+            </fieldset>
+        </form>
+    
+
+    <form class="delete">
+        <fieldset>
+            <legend>Delete a book</legend>
+            <label for="id">Document id:
+                <input type="text" name="id" required>
+            </label>
+            <button type="submit">Delete a book</button>
+        </fieldset>
+    </form>
+    
+    <form class="update">
+        <fieldset>
+            <legend>Update a book</legend>
+            <label for="id">Document id:
+                <input type="text" name="id" required>
+            </label>
+            <button type="submit">Update a book</button>
+        </fieldset>
+    </form>
+
+    <form class="signup">
+        <fieldset>
+            <legend>Signup</legend>
+            <br/>
+            <label for="email">email:
+                <input type="email" name="email">
+            </label>
+            <br/>
+            <br/>
+            <label for="password">password:
+                <input type="password" name="password">
+            </label>
+            <br/>
+            <br/>
+            <button type="submit">signup</button>
+        </fieldset>
+    </form>
+
+    <script src="bundle.js"></script>
+</body>
+</html>
